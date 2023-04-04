@@ -1,0 +1,18 @@
+export enum ROLES {
+  BASIC = 'BASIC',
+  ADMIN = 'ADMIN',
+  CREATOR = 'CREATOR',
+}
+
+export enum ACCESS_LEVELS {
+  MANTEINER = 30,
+  OWNER = 50,
+  DEVELOPER = 40,
+}
+
+export enum STATUS_TASK {
+  IN_PROGRESS = 'IN_PROGRESS',
+  DONE = 'DONE',
+  PENDING = 'PENDING',
+  CREATED = 'CREATED',
+}
